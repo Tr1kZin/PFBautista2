@@ -14,7 +14,7 @@
 .espaciomini{
     height: 20px;
 }
-
+/* NAVBAR */
 
 .navbar{
     font-family: 'Roboto';
@@ -23,7 +23,7 @@
     font-family: 'Lora';
     
     }
-
+/* HEADER */
 .container a{
 text-decoration: none;
 color: black;
@@ -310,6 +310,7 @@ border-radius: 20px;
 
 
  @media (   max-width:768px ) {
+   /* Footer */
 .contenedor-3{
     width: 100%;
 }               
