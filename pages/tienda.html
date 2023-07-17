@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <!-- SEO -->
-    <title>LeagueShop/Home</title>
+    <title>LeagueShop/Tienda</title>
     <meta name="description" content="Somos  un emprendimiento centrado en la venta de articulos de League Of Legends">
     <meta name="keywords" content="leagueoflegends, lol, articulos lol, tienda">
     <!-- SEO-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&family=Roboto+Mono&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +23,7 @@
 
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">LeagueShop</a>
+      <a class="navbar-brand" href="#">LeagueShop/Tienda</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,12 +41,16 @@
                       <a class="nav-link" href="#">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">InfoItems</a>
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
                       </li>
-                      <li class="nav-item">                       
+                      <li class="nav-item"> 
+                        <li class="nav-item">
+                          <a class="nav-link" href="../pages/infoitems.html">InfoItems</a>
+                        </li>
+                        <li class="nav-item">                      
                       <div class="espacio"></div>
                       <p>Dylan Bautista &copy; 2023 Desarrollo Web. </p>
                 </div>
@@ -53,21 +61,88 @@
 
           <div class="clearfix bg-dark">
             <div class="img-border">
-            <img class="img-fluid" src="../imagenes/NicePng_victory-royale-png_171263.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Imagen de victoria en league of leagueoflegends">
+            <img class="img-fluid animate__animated animate__fadeInLeft " src="../imagenes/NicePng_victory-royale-png_171263.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="Imagen de victoria en league of leagueoflegends">
           </div>
-            <h1>
+            <h1 class="animate__animated animate__fadeInDownBig">
               Bienvenidos a Nuestra Tienda online!
             </h1>
           
-            <p>
+            <p class="animate__animated animate__fadeInLeft">
               Aqui podras adquirir objetos de campeones variados con distintos precios , descuentos y la mejor calidad!
-              cabe recalcar que los objetos vendidos son solo para coleccion , por lo tanto no traen filo a su disposicion.Prohibida su venta a menores de 16.
+              cabe recalcar que los objetos vendidos son solo para coleccion.Prohibida su venta a menores de 16.
             </p>
           
-            <p>
+            <p class="animate__animated animate__fadeInDownBig">
               Tambien hay que recalcar que no hay devoluciones por lo tanto a menos que el producto haya sido recibido con algun tipo de falla a menos que tenga las pruebas necesarias no sera apto para su reembolso. Sepa comprender.
             </p>
           </div>
+          <div class="espaciomini bg-dark"></div>
+
+          <div class="card-group ">
+            <div class="card bg-dark">
+              <img src="../imagenes/arma-aatrox.jpg" class="card-img-top" alt="Espada darkin de aatrox a la venta">
+              <div class="card-body">
+                <h5 class="card-title">Espada de Aatrox</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Comprar por $999</a></button>
+                <p class="card-text">Replica de la Espada Darkin de Aatrox. El objeto a la venta no tiene filo y evitar en menores de 7 años.</p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 1 dia</small></p>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <img src="../imagenes/arma-fizz.jpg" class="card-img-top" alt="Tridente de fizz (llavero)">
+              <div class="card-body">
+                <h5 class="card-title">Tridente de Fizz (llavero)</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Comprar por $500</a></button>
+                <p class="card-text">Llavero con la forma del tridente de fizz perfecto para no perder tus llaves! <p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 30s</small></p>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <img src="../imagenes/KatanaYasuoo.jpg" class="card-img-top" alt="Katana minimalista de Yasuo">
+              <div class="card-body">
+                <h5 class="card-title">Katana De Yasuo</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Compra por $999</a></button>
+                <p class="card-text">Replica de la Katana de yasuo version minimalista en su aspecto epico llamado SubJefe. No tiene filo</p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 2 dias</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="espaciomini bg-dark"></div>
+
+          <div class="card-group ">
+            <div class="card bg-dark">
+              <img src="../imagenes/arma-nautilus.jpg" class="card-img-top" alt="Ancla de nautilus minimalista">
+              <div class="card-body">
+                <h5 class="card-title">Ancla de Nautilus</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Comprar por $120</a></button>
+                <p class="card-text">Llavero replica de el ancla de Nautilus. El objeto a la venta no tiene filo y evitar en menores de 7 años por su tamaño.</p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 6 dia</small></p>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <img src="../imagenes/KATA-BLADE-1.2.png" class="card-img-top" alt="cuchillas dobles de katarina sin filo">
+              <div class="card-body">
+                <h5 class="card-title">Cuchillas de Katarina</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Comprar por $500</a></button>
+                <p class="card-text">Cuchillas dobles de Katarina coleccionables , tamaño real. El objeto a la venta no tiene filo y evitar en menores de 7 años. <p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 30s</small></p>
+              </div>
+            </div>
+            <div class="card bg-dark">
+              <img src="../imagenes/Llavero-Jax.jpg" class="card-img-top" alt="baculo mediano de jax ">
+              <div class="card-body">
+                <h5 class="card-title">Llavero de Jax</h5>
+                <button type="button" class="btn btn-outline-success"><a href="./pages/tienda.html">Compra por $999</a></button>
+                <p class="card-text">Baculo de jax tamaño mediano sin filo .El objeto a la venta no tiene filo ni el peso suficiente para ser potencialmente peligroso. Evitar en menores de 7 años.</p>
+                <p class="card-text"><small class="text-body-secondary">Publicado hace 2 dias</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor-3">
+            <footer class="pie">
+           <p>Copyright &copy; 2023. <a href="#">Dylan Bautista</a> | Todos Los Derechos Reservados</p>
+         </div>
+       </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
 </body>
